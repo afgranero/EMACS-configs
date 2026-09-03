@@ -83,6 +83,9 @@
 (setq backup-directory-alist `((".*" . "backup/"))
 )
 
+;; shows column position in status bar
+(column-number-mode 1)
+
 ;; package-initialize is not needed anymore since Emacs 27,
 ;; searching for installed packages, running their autoload files,
 ;; and adding their directories to load-path now is automatically done
